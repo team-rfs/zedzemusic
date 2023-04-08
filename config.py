@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RFS MUSIC")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5604140011").split()))
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusi
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katilsupport")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katil_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/RfsCheat")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RfsCheat")
 
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
